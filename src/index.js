@@ -43,7 +43,7 @@ console.log(typeof d);
 var e;
 console.log(e);  //Undefined
 console.log(typeof e); //Undefined
-
+console.log(e);
 console.log(typeof typeof null); //typeof typeof of anything Always be a string
 
 console.log(typeof typeof e);
@@ -87,3 +87,4 @@ console.log("ram");
 
 
 
+	
