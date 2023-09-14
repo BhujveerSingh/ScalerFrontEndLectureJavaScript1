@@ -41,10 +41,10 @@ console.log(typeof d);
 //********************************************/
 
 var e;
-console.log(e);
+console.log(e);  //Undefined
 console.log(typeof e); //Undefined
 
-console.log(typeof typeof null);  //typeof typeof of anything Always be a string
+console.log(typeof typeof null); //typeof typeof of anything Always be a string
 
 console.log(typeof typeof e);
 
@@ -83,6 +83,7 @@ console.log(+"abc" === +"def"); //returns false (why?) becuase
 //then always it returns false or it cant be compared.
 
 console.log(typeof typeof NAN); //typeof typeof of anything Always be a string
+console.log("ram");
 
-console.log(typeof "Ram"); //
+
 
